@@ -224,8 +224,8 @@ h1 {
   .header-container .wrapper {
     padding-top: 120px;
     z-index: 2; }
-  .header-container:before {
-    content: '1';
+/*  .header-container:before {
+    content: '';
     display: block;
     font-size: 30em;
     position: absolute;
@@ -236,7 +236,7 @@ h1 {
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif; }
+    font-family: 'Roboto Condensed', Helvetica, Helvetica Neue, Arial, sans-serif; }*/
 
 /* =Navigation */
 nav {
@@ -403,7 +403,7 @@ p {
     margin: 0;
     padding: 0; }
   .header-container:before {
-    font-size: 70em; }
+    font-size: 50em; }
   .slide section {
     max-width: 400px; }
   .slide .wrapper {
@@ -743,6 +743,51 @@ a.fa {
 
   .social {
     margin-left: 15px;
+  }
+
+}
+
+/* MBP 13 STYLING 
+==========================================================*/
+
+/* MBP 13 Why Invest? */
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+  #slide01 > div {
+    top: 40%;
+  }
+
+}
+
+/* MBP 13 Pricing */
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+  #slide02 {
+    height: 140vh;
+  }
+  
+  #slide02 > div {
+    top: 43%;
+  }
+
+  .p-btn {
+    width: 180px;
+  }
+
+  .basic, .pro {
+    margin-right: 60px;
+  }
+
+}
+
+/* MBP 13 Social */
+
+@media screen and (min-width: 1000px) and (max-width: 1400px) {
+
+  #slide03 > div {
+    top: 38%;
   }
 
 }
